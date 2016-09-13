@@ -1,10 +1,8 @@
-***************************************************************************************************************************************************************************
-***************************************************************************************************************************************************************************
-﻿Description: The Partition Export/Import Template Engine helps in exporting and importing the complete Partition inventory on the same machine. The tool can also be used to create partition template from any given partition on the system and the template can be reused to create 'n' number of partitions on the same system
+﻿##Description: The Partition Export/Import Template Engine helps in exporting and importing the complete Partition inventory on the same machine. The tool can also be used to create partition template from any given partition on the system and the template can be reused to create 'n' number of partitions on the same system
 
-Developers of the Tool: Preethi PY,Sowmya R, Anil k Paspuleti, Devagun
-***************************************************************************************************************************************************************************
-***************************************************************************************************************************************************************************
+##Developers of the Tool: Preethi PY,Sowmya R, Anil k Paspuleti, Devagun
+
+
 Note: The tool was implemented as part of Shrishti hackathon and this has also been the Idea from HVM-India team. This tool is not official and is also not tested in all scenarios. Hence the tool should be used at your own risk :)
 
 The tool when used for importing partitions or creating partition from template, will have new WWPNs generated. So note that the SAN administrator has to reconfigure the WWPN to make the Luns visible on Partitions
@@ -17,9 +15,9 @@ How to Use the Tool:
 Prerequisites:
 => The tool should can be run from any system which has access to HMC webservices API
 => Webservices API has to be enabled on HMC before starting to use the tool.
-***************************************************************************************************************************************************************************
-1) Export Partition Inventory:
-***************************************************************************************************************************************************************************
+
+##1) Export Partition Inventory:
+
 This feature helps you dump all the partition configuration on to your local system from where the tool is run. The sample execution output is shown below.
 
 [preethi@localhost src]$ python Console.py 
@@ -57,9 +55,9 @@ Fetching Partition Inventory....... done!
 ****************************************************************************************************
 Successfully Completed
 ****************************************************************************************************
-***************************************************************************************************************************************************************************
-2) Import Partition Inventory:
-***************************************************************************************************************************************************************************
+
+##2) Import Partition Inventory:
+
 
 This feature helps in importing the partition configuration of the same machine back to the system again
 
