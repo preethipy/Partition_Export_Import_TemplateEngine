@@ -108,7 +108,7 @@ Partition: test Created Successfully
 Successfully Completed
 ****************************************************************************************************
 
-##1) Create a template from existing partition
+##3) Create a template from existing partition
 
 This will help you create a template from any preferred partition and also lets you create n partitions based on the template.. Once template is created it is stored in the system locally.
 
