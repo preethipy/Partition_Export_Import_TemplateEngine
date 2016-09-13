@@ -1,4 +1,5 @@
-﻿##Description: The Partition Export/Import Template Engine helps in exporting and importing the complete Partition inventory on the same machine. The tool can also be used to create partition template from any given partition on the system and the template can be reused to create 'n' number of partitions on the same system
+﻿##Description: 
+The Partition Export/Import Template Engine helps in exporting and importing the complete Partition inventory on the same machine. The tool can also be used to create partition template from any given partition on the system and the template can be reused to create 'n' number of partitions on the same system
 
 ##Developers of the Tool: Preethi PY,Sowmya R, Anil k Paspuleti, Devagun
 
