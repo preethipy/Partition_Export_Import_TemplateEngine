@@ -15,8 +15,9 @@ Prerequisites:
 => The tool should can be run from any system which has access to HMC webservices API
 => Webservices API has to be enabled on HMC before starting to use the tool.
 
-
+***************************************************************************************************************************************************************************
 1) Export Partition Inventory:
+***************************************************************************************************************************************************************************
 This feature helps you dump all the partition configuration on to your local system from where the tool is run. The sample execution output is shown below.
 
 [preethi@localhost src]$ python Console.py 
@@ -54,8 +55,9 @@ Fetching Partition Inventory....... done!
 ****************************************************************************************************
 Successfully Completed
 ****************************************************************************************************
-
+***************************************************************************************************************************************************************************
 2) Import Partition Inventory:
+***************************************************************************************************************************************************************************
 
 This feature helps in importing the partition configuration of the same machine back to the system again
 
