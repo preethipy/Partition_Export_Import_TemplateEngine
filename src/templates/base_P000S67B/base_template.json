@@ -1,0 +1,50 @@
+{
+    "partition": [
+        {
+            "acceptable-status": [
+                "active"
+            ], 
+            "access-basic-counter-set": false, 
+            "access-basic-sampling": false, 
+            "access-coprocessor-group-set": false, 
+            "access-crypto-activity-counter-set": false, 
+            "access-diagnostic-sampling": false, 
+            "access-extended-counter-set": false, 
+            "access-global-performance-data": false, 
+            "access-problem-state-counter-set": false, 
+            "boot-configuration-selector": 0, 
+            "boot-device": "test-operating-system", 
+            "boot-os-specific-parameters": "", 
+            "boot-record-lba": "0", 
+            "boot-timeout": 60, 
+            "cp-absolute-processor-capping": false, 
+            "cp-absolute-processor-capping-value": 1.0, 
+            "cp-processing-weight-capped": false, 
+            "cp-processors": 1, 
+            "cryptos": null, 
+            "description": "", 
+            "hbas": [], 
+            "ifl-absolute-processor-capping": false, 
+            "ifl-absolute-processor-capping-value": 1.0, 
+            "ifl-processing-weight-capped": false, 
+            "ifl-processors": 0, 
+            "initial-cp-processing-weight": 100, 
+            "initial-ifl-processing-weight": 100, 
+            "initial-memory": 4096, 
+            "maximum-cp-processing-weight": 999, 
+            "maximum-ifl-processing-weight": 999, 
+            "maximum-memory": 4096, 
+            "minimum-cp-processing-weight": 1, 
+            "minimum-ifl-processing-weight": 1, 
+            "name": "test", 
+            "nics": [], 
+            "permit-aes-key-import-functions": true, 
+            "permit-cross-partition-commands": false, 
+            "permit-des-key-import-functions": true, 
+            "processor-management-enabled": false, 
+            "processor-mode": "shared", 
+            "reserve-resources": false, 
+            "virtual-functions": []
+        }
+    ]
+}

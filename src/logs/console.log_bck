@@ -1,0 +1,28 @@
+Wed, 06 Apr 2016 01:32:32 INFO     Starting the PartitionManagementTemplating Tool
+Wed, 06 Apr 2016 01:32:35 DEBUG    hmc_ip: 9.152.151.49 hmc_user pedebug hmc_password password
+Wed, 06 Apr 2016 01:32:37 DEBUG    Printing the session details... /n<utils.wsautils.Session instance at 0x7fcddd0a75f0>
+Wed, 06 Apr 2016 01:32:39 DEBUG    Printing the cpcs... /n[{u'status': u'service-required', u'object-uri': u'/api/cpcs/3baea1ec-76e8-3e42-a111-815a7aee19e0', u'name': u'P000S67B'}]
+Wed, 06 Apr 2016 01:32:39 INFO     option_choser method invoked
+Wed, 06 Apr 2016 01:32:40 DEBUG    chosen option: 1
+Wed, 06 Apr 2016 01:32:40 DEBUG    
+****************************************************************************************************
+CPC P000S67B is selected
+****************************************************************************************************
+Wed, 06 Apr 2016 01:32:40 INFO     option_choser method invoked
+Wed, 06 Apr 2016 01:32:43 DEBUG    chosen option: 2
+Wed, 06 Apr 2016 01:32:43 INFO     ->createPartitionFromPartition
+Wed, 06 Apr 2016 01:32:44 INFO     option_choser method invoked
+Wed, 06 Apr 2016 01:32:50 DEBUG    chosen option: 18
+Wed, 06 Apr 2016 01:32:52 DEBUG    no_of_partitions1
+Wed, 06 Apr 2016 01:33:11 DEBUG    template_name /home/preethi/edrive/shristi-hackathon/PartitionTemplate-Shrishti/src/templates/cpc_P000S67B/MRoesch_template.json
+Wed, 06 Apr 2016 01:33:11 INFO     -> createPartitionIteratively for the templatename /home/preethi/edrive/shristi-hackathon/PartitionTemplate-Shrishti/src/templates/cpc_P000S67B/MRoesch_template.json number of Partitions: 1 CPC URI: /api/cpcs/3baea1ec-76e8-3e42-a111-815a7aee19e0
+Wed, 06 Apr 2016 01:33:11 INFO     ==>>################# createTemplatePartition invoked#################
+Wed, 06 Apr 2016 01:33:13 DEBUG    
+****************************************************************************************************
+**********************************Operation Failed**************************************************
+****************************************************************************************************
+Partition Creation failed to create from chosen partition MRoesch
+****************************************************************************************************
+Wed, 06 Apr 2016 01:33:13 DEBUG    Failure Reason:
+Wed, 06 Apr 2016 01:33:13 DEBUG    (<type 'exceptions.NameError'>, NameError("global name '_' is not defined",))
+Wed, 06 Apr 2016 01:33:13 INFO     <-createPartitionFromPartition

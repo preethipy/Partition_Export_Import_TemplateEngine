@@ -1,0 +1,61 @@
+{
+    "partition": [
+        {
+            "acceptable-status": [
+                "active"
+            ], 
+            "access-basic-counter-set": false, 
+            "access-basic-sampling": false, 
+            "access-coprocessor-group-set": false, 
+            "access-crypto-activity-counter-set": false, 
+            "access-diagnostic-sampling": false, 
+            "access-extended-counter-set": false, 
+            "access-global-performance-data": false, 
+            "access-problem-state-counter-set": false, 
+            "boot-configuration-selector": 1, 
+            "boot-device": "storage-adapter", 
+            "boot-logical-unit-number": "1111111111111111", 
+            "boot-os-specific-parameters": "blah", 
+            "boot-record-lba": "456", 
+            "boot-storage-device": "/api/partitions/1b472a76-fb38-11e5-8417-40f2e9ef1644/hbas/1c12715e-fb38-11e5-9217-40f2e9ef1644", 
+            "boot-timeout": 60, 
+            "boot-world-wide-port-name": "0001000000000000", 
+            "cp-absolute-processor-capping": false, 
+            "cp-absolute-processor-capping-value": "1.0", 
+            "cp-processing-weight-capped": false, 
+            "cp-processors": 1, 
+            "cryptos": null, 
+            "description": "", 
+            "hba-boot-device-number": "0001", 
+            "hbas": [
+                {
+                    "adapter-port-uri": "/api/adapters/bd9cfba0-f040-11e5-a770-42f2e9ef1641/storage-ports/0", 
+                    "description": "", 
+                    "device-number": "0001", 
+                    "name": "HariTest1"
+                }
+            ], 
+            "ifl-absolute-processor-capping": false, 
+            "ifl-absolute-processor-capping-value": "1.0", 
+            "ifl-processing-weight-capped": false, 
+            "ifl-processors": 0, 
+            "initial-cp-processing-weight": 100, 
+            "initial-ifl-processing-weight": 100, 
+            "initial-memory": 4096, 
+            "maximum-cp-processing-weight": 999, 
+            "maximum-ifl-processing-weight": 999, 
+            "maximum-memory": 4096, 
+            "minimum-cp-processing-weight": 1, 
+            "minimum-ifl-processing-weight": 1, 
+            "name": "HariTest1", 
+            "nics": [], 
+            "permit-aes-key-import-functions": true, 
+            "permit-cross-partition-commands": false, 
+            "permit-des-key-import-functions": true, 
+            "processor-management-enabled": false, 
+            "processor-mode": "shared", 
+            "reserve-resources": false, 
+            "virtual-functions": []
+        }
+    ]
+}
