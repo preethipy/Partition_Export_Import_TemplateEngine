@@ -28,7 +28,7 @@ Enter HMC IP [9.152.151.49]              :9.152.151.49
 Enter Username [pedebug]              :pedebug
 Enter Password :
 Establishing session.... /
--
+
 |Fetching CPC List.... /
  done!
  done!
@@ -69,7 +69,7 @@ Enter HMC IP [9.152.151.49]              :9.152.151.49
 Enter Username [pedebug]              :pedebug
 Enter Password :
 Establishing session.... /
--
+
 |Fetching CPC List....   
  done!
  done!
@@ -105,6 +105,166 @@ Partition: test Created Successfully
 ****************************************************************************************************
 Successfully Completed
 ****************************************************************************************************
+
+##1) Create a template from existing partition
+
+This will help you create a template from any preferred partition and also lets you create n partitions based on the template.. Once template is created it is stored in the system locally.
+
+[preethi@localhost src]$ python Console.py 
+****************************************************************************************************
+                               Capture and replay partition creation                                
+****************************************************************************************************
+Enter HMC IP [9.152.151.49]              :
+Enter Username [pedebug]              :
+Enter Password :
+Establishing session.... /
+-
+-Fetching CPC List.... /
+ done!
+ done!
+****************************************************************************************************
+List of CPCs available
+1    P000S67B
+
+Select cpc by index from the given list [1]              :1
+
+****************************************************************************************************
+CPC P000S67B is selected
+****************************************************************************************************
+Choose one of the below options:
+
+1.  create n partitions from existing templates?
+2.  create a partition based on another partition?
+3.  Export Partition Inventory?
+4.  Import Partition Inventory? 
+
+Select an option by index [4]              :2
+
+1    test
+
+Select partition by index [1]              :1
+
+Enter the number of partitions to be created  [1]              :1
+Fetching Partition Inventory....... /
+ done!
+
+****************************************************************************************************
+Creating Partition 1
+****************************************************************************************************
+Creating Partition.... /
+ done!
+Creating VNics.... done!
+Creating HBAs.... done!
+Creating VirtualFunctions.... done!
+Configuring Cryptos.... done!
+
+Updating Partition Properties.... /
+ done!
+
+Retrieve and Verify Partition Properties.... done!
+Partition: test_90DK Created Successfully
+****************************************************************************************************
+Successfully Completed
+****************************************************************************************************
+
+##4) Create n partitions from existing templates on your local system
+If you have already created templates, you can create n number of partitions based on that template
+
+[preethi@localhost src]$ python Console.py 
+****************************************************************************************************
+                               Capture and replay partition creation                                
+****************************************************************************************************
+Enter HMC IP [9.152.151.49]              :
+Enter Username [pedebug]              :
+Enter Password :
+Establishing session.... /
+\
+-Fetching CPC List.... /
+ done!
+ done!
+****************************************************************************************************
+List of CPCs available
+1    P000S67B
+
+Select cpc by index from the given list [1]              :1
+
+****************************************************************************************************
+CPC P000S67B is selected
+****************************************************************************************************
+Choose one of the below options:
+
+1.  create n partitions from existing templates?
+2.  create a partition based on another partition?
+3.  Export Partition Inventory?
+4.  Import Partition Inventory? 
+
+Select an option by index [2]              :1
+
+Choose one of the below Templates:
+
+1 .          test_template
+2 .          HariTest1_template
+
+Select a template available to create partition: []              :1
+
+Enter the number of partitions to be created  []              :3
+
+****************************************************************************************************
+Creating Partition 1
+****************************************************************************************************
+Creating Partition.... /
+ done!
+Creating VNics.... done!
+Creating HBAs.... done!
+Creating VirtualFunctions.... done!
+Configuring Cryptos.... done!
+
+Updating Partition Properties.... /
+ done!
+Retrieve and Verify Partition Properties.... /
+ done!
+Partition: test_902R Created Successfully
+****************************************************************************************************
+Creating Partition 2
+****************************************************************************************************
+Creating Partition.... /
+ done!
+Creating VNics.... done!
+Creating HBAs.... done!
+Creating VirtualFunctions.... done!
+Configuring Cryptos.... done!
+
+Updating Partition Properties.... /
+ done!
+Retrieve and Verify Partition Properties.... /
+ done!
+Partition: test_A0WM Created Successfully
+****************************************************************************************************
+Creating Partition 3
+****************************************************************************************************
+Creating Partition.... /
+ done!
+Creating VNics.... done!
+Creating HBAs.... done!
+Creating VirtualFunctions.... done!
+Configuring Cryptos.... done!
+
+Updating Partition Properties.... /
+ done!
+Retrieve and Verify Partition Properties.... /
+ done!
+Partition: test_34L6 Created Successfully
+****************************************************************************************************
+Partition Created Successfully from template
+
+****************************************************************************************************
+
+****************************************************************************************************
+Process Completed
+****************************************************************************************************
+
+
+
 
 
 
