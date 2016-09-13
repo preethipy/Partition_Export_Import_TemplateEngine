@@ -5,8 +5,9 @@ The Partition Export/Import Template Engine helps in exporting and importing the
 
 
 Note: The tool was implemented as part of Shrishti hackathon and this has also been the Idea from HVM-India team. This tool is not official and is also not tested in all scenarios. Hence the tool should be used at your own risk :)
-
-##The tool when used for importing partitions or creating partition from template, will have new WWPNs generated. So note that the SAN administrator has to reconfigure the WWPN to make the Luns visible on Partitions
+********************************************************************************************************************************************************************************************************
+The tool when used for importing partitions or creating partition from template, will have new WWPNs generated. So note that the SAN administrator has to reconfigure the WWPN to make the Luns visible on Partitions
+********************************************************************************************************************************************************************************************************
 
 How to Use the Tool:
 
