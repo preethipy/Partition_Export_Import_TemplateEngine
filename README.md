@@ -12,7 +12,7 @@ The tool when used for importing partitions or creating partition from template,
 How to Use the Tool:
 
 => Git clone the code from the repository to your local system "git clone https://github.com/preethipy/Partition_Export_Import_TemplateEngine.git"
-=> The main script that has be run is src/Console.py. The tool is quite interactive and hence very easy to use. 
+=> The main script that has be run is export_import_template_engine/Console.py. The tool is quite interactive and hence very easy to use. 
 
 Prerequisites:
 => The tool should can be run from any system which has access to HMC webservices API
