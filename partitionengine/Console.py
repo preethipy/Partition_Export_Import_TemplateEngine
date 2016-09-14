@@ -138,9 +138,7 @@ def createPartitionFromPartition(cpc_name='', cpc_uri=''):
         p = progress_bar_loading()
         p.configure("Fetching Partition Inventory...")
         p.start() 
-        
-        
-        
+                
         temp_name = createTemplate(session,[partitions[partition_option - 1]], cpc_name, partition_name)
         logging.debug('template_name '+ temp_name)
         
@@ -167,11 +165,15 @@ def exportPartition(cpc_name="",cpc_uri=""):
     try:
         part = session.get(cpc_uri + '/partitions')
         partitions = part.body['partitions']
-        temp_name = createTemplate(session,partitions, cpc_name)
-        p = progress_bar_loading()
+	p = progress_bar_loading()
         p.configure("Fetching Partition Inventory...")
-        p.start() 
-        time.sleep(1)
+        p.start()
+        
+	temp_name = createTemplate(session,partitions, cpc_name)
+        #p = progress_bar_loading()
+        #p.configure("Fetching Partition Inventory...")
+        #p.start() 
+        #time.sleep(1)
         p.stop()
         time.sleep(2)   
         logging.debug('template_name '+ temp_name)
