@@ -1,0 +1,3 @@
+[console_scripts]
+partitionengine = partitionengine.Console:main
+
