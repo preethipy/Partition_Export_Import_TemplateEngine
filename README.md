@@ -18,11 +18,23 @@ Prerequisites:
 => The tool should can be run from any system which has access to HMC webservices API
 => Webservices API has to be enabled on HMC before starting to use the tool.
 
+# Install the tool?
+=> Git clone the code into any of your local folders and run the following command to build and install the tool on your system as sudo user
+sudo make build
+sudo make install
+
+=> Prerequisite is that you have Python installed on your system.
+=> once the tool is installed, you can simple run "sudo partitionengine" as shown below. 
+
+# Run the tool without installing it on to your system?
+You can alway chose to run code from the folder "sudo python Partition_TemplateEngine/partitionengine/Console.py"
+
+
 ##1) Export Partition Inventory:
 
 This feature helps you dump all the partition configuration on to your local system from where the tool is run. The sample execution output is shown below.
 
-[preethi@localhost src]$ python Console.py 
+[preethi@localhost src]$ sudo partitionengine
 ****************************************************************************************************
                                Capture and replay partition creation                                
 ****************************************************************************************************
@@ -63,7 +75,7 @@ Successfully Completed
 
 This feature helps in importing the partition configuration of the same machine back to the system again
 
-[preethi@localhost src]$ python Console.py 
+[preethi@localhost src]$ sudo partitionengine
 ****************************************************************************************************
                                Capture and replay partition creation                                
 ****************************************************************************************************
@@ -112,7 +124,7 @@ Successfully Completed
 
 This will help you create a template from any preferred partition and also lets you create n partitions based on the template.. Once template is created it is stored in the system locally.
 
-[preethi@localhost src]$ python Console.py 
+[preethi@localhost src]$ sudo partitionengine
 ****************************************************************************************************
                                Capture and replay partition creation                                
 ****************************************************************************************************
@@ -172,7 +184,7 @@ Successfully Completed
 ##4) Create n partitions from existing templates on your local system
 If you have already created templates, you can create n number of partitions based on that template
 
-[preethi@localhost src]$ python Console.py 
+[preethi@localhost src]$ sudo partitionengine
 ****************************************************************************************************
                                Capture and replay partition creation                                
 ****************************************************************************************************
