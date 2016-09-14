@@ -1,1 +1,169 @@
-Wed, 14 Sep 2016 15:48:29 INFO     Starting the PartitionManagementTemplating Tool
+Wed, 14 Sep 2016 16:15:52 INFO     Starting the PartitionManagementTemplating Tool
+Wed, 14 Sep 2016 16:15:55 DEBUG    hmc_ip: 9.152.151.49 hmc_user pedebug hmc_password password
+Wed, 14 Sep 2016 16:15:56 DEBUG    Printing the session details... /n<utils.wsautils.Session instance at 0x7f57932f11b8>
+Wed, 14 Sep 2016 16:16:01 DEBUG    Printing the cpcs... /n[{u'status': u'service-required', u'object-uri': u'/api/cpcs/3baea1ec-76e8-3e42-a111-815a7aee19e0', u'name': u'P000S67B'}]
+Wed, 14 Sep 2016 16:16:01 INFO     option_choser method invoked
+Wed, 14 Sep 2016 16:16:04 INFO     option_choser method invoked
+Wed, 14 Sep 2016 16:16:04 DEBUG    chosen option: 1
+Wed, 14 Sep 2016 16:16:04 DEBUG    chosen option: 1
+Wed, 14 Sep 2016 16:16:04 DEBUG    
+****************************************************************************************************
+CPC P000S67B is selected
+****************************************************************************************************
+Wed, 14 Sep 2016 16:16:04 INFO     option_choser method invoked
+Wed, 14 Sep 2016 16:16:07 INFO     option_choser method invoked
+Wed, 14 Sep 2016 16:16:07 DEBUG    chosen option: 3
+Wed, 14 Sep 2016 16:16:07 DEBUG    chosen option: 3
+Wed, 14 Sep 2016 16:16:07 INFO     ->exportPartition
+Wed, 14 Sep 2016 16:16:07 INFO     ->createTemplate
+Wed, 14 Sep 2016 16:16:07 DEBUG    [{u'status': u'stopped', u'object-uri': u'/api/partitions/f0695b26-7990-11e6-8ef9-42f2e9ef1641', u'name': u'VSM_2_21834'}, {u'status': u'paused', u'object-uri': u'/api/partitions/3b1faad0-7a68-11e6-8bbf-42f2e9ef1641', u'name': u'VSM_2_188811'}, {u'status': u'stopped', u'object-uri': u'/api/partitions/8b9854b2-7978-11e6-99e4-42f2e9ef1641', u'name': u'test'}, {u'status': u'stopped', u'object-uri': u'/api/partitions/fd59caaa-7a67-11e6-8bbf-42f2e9ef1641', u'name': u'test_GTGK'}, {u'status': u'paused', u'object-uri': u'/api/partitions/673cfa14-7a59-11e6-b4cb-42f2e9ef1641', u'name': u'VSM_2_18856'}, {u'status': u'stopped', u'object-uri': u'/api/partitions/b7267b80-797e-11e6-849e-42f2e9ef1641', u'name': u'test_90DK'}, {u'status': u'stopped', u'object-uri': u'/api/partitions/1eb7e11c-797f-11e6-b189-42f2e9ef1641', u'name': u'test_A0WM'}, {u'status': u'stopped', u'object-uri': u'/api/partitions/2f6f2f38-797f-11e6-ae1c-42f2e9ef1641', u'name': u'test_34L6'}, {u'status': u'stopped', u'object-uri': u'/api/partitions/0bea53a0-7a68-11e6-9513-42f2e9ef1641', u'name': u'test_0J2I'}, {u'status': u'stopped', u'object-uri': u'/api/partitions/0e3e1c34-797f-11e6-b189-42f2e9ef1641', u'name': u'test_902R'}, {u'status': u'stopped', u'object-uri': u'/api/partitions/acbde22a-7a58-11e6-9b19-42f2e9ef1641', u'name': u'Test'}]
+Wed, 14 Sep 2016 16:16:09 INFO     Retriving the partition info and loading into template....
+Wed, 14 Sep 2016 16:16:09 INFO     ->getPartitionTemplate
+Wed, 14 Sep 2016 16:16:09 INFO     ->setBootDevice
+Wed, 14 Sep 2016 16:16:09 INFO     <-setBootDevice
+Wed, 14 Sep 2016 16:16:09 INFO     ->getNicList
+Wed, 14 Sep 2016 16:16:09 INFO     ->getHbaList
+Wed, 14 Sep 2016 16:16:09 INFO     <-getHbaList
+Wed, 14 Sep 2016 16:16:09 INFO     ->getVfnList
+Wed, 14 Sep 2016 16:16:09 INFO     <-getVfnList
+Wed, 14 Sep 2016 16:16:09 INFO     <-getPartitionTemplate
+Wed, 14 Sep 2016 16:16:10 INFO     Retriving the partition info and loading into template....
+Wed, 14 Sep 2016 16:16:10 INFO     ->getPartitionTemplate
+Wed, 14 Sep 2016 16:16:10 INFO     ->setBootDevice
+Wed, 14 Sep 2016 16:16:10 INFO     <-setBootDevice
+Wed, 14 Sep 2016 16:16:10 INFO     ->getNicList
+Wed, 14 Sep 2016 16:16:10 INFO     ->getHbaList
+Wed, 14 Sep 2016 16:16:10 INFO     <-getHbaList
+Wed, 14 Sep 2016 16:16:10 INFO     ->getVfnList
+Wed, 14 Sep 2016 16:16:10 INFO     <-getVfnList
+Wed, 14 Sep 2016 16:16:10 INFO     <-getPartitionTemplate
+Wed, 14 Sep 2016 16:16:12 INFO     Retriving the partition info and loading into template....
+Wed, 14 Sep 2016 16:16:12 INFO     ->getPartitionTemplate
+Wed, 14 Sep 2016 16:16:12 INFO     ->setBootDevice
+Wed, 14 Sep 2016 16:16:12 INFO     <-setBootDevice
+Wed, 14 Sep 2016 16:16:12 INFO     ->getNicList
+Wed, 14 Sep 2016 16:16:12 INFO     ->getHbaList
+Wed, 14 Sep 2016 16:16:12 INFO     <-getHbaList
+Wed, 14 Sep 2016 16:16:12 INFO     ->getVfnList
+Wed, 14 Sep 2016 16:16:12 INFO     <-getVfnList
+Wed, 14 Sep 2016 16:16:12 INFO     <-getPartitionTemplate
+Wed, 14 Sep 2016 16:16:13 INFO     Retriving the partition info and loading into template....
+Wed, 14 Sep 2016 16:16:13 INFO     ->getPartitionTemplate
+Wed, 14 Sep 2016 16:16:13 INFO     ->setBootDevice
+Wed, 14 Sep 2016 16:16:13 INFO     <-setBootDevice
+Wed, 14 Sep 2016 16:16:13 INFO     ->getNicList
+Wed, 14 Sep 2016 16:16:13 INFO     ->getHbaList
+Wed, 14 Sep 2016 16:16:13 INFO     <-getHbaList
+Wed, 14 Sep 2016 16:16:13 INFO     ->getVfnList
+Wed, 14 Sep 2016 16:16:13 INFO     <-getVfnList
+Wed, 14 Sep 2016 16:16:13 INFO     <-getPartitionTemplate
+Wed, 14 Sep 2016 16:16:14 INFO     Retriving the partition info and loading into template....
+Wed, 14 Sep 2016 16:16:14 INFO     ->getPartitionTemplate
+Wed, 14 Sep 2016 16:16:14 INFO     ->setBootDevice
+Wed, 14 Sep 2016 16:16:14 INFO     <-setBootDevice
+Wed, 14 Sep 2016 16:16:14 INFO     ->getNicList
+Wed, 14 Sep 2016 16:16:14 DEBUG    /api/partitions/673cfa14-7a59-11e6-b4cb-42f2e9ef1641/nics/29ba2288-7a5f-11e6-a8fe-42f2e9ef1641
+Wed, 14 Sep 2016 16:16:15 DEBUG    {u'element-uri': u'/api/partitions/673cfa14-7a59-11e6-b4cb-42f2e9ef1641/nics/29ba2288-7a5f-11e6-a8fe-42f2e9ef1641', u'name': u'jkqeurji4jtfkccm', u'parent': u'/api/partitions/673cfa14-7a59-11e6-b4cb-42f2e9ef1641', u'element-id': u'29ba2288-7a5f-11e6-a8fe-42f2e9ef1641', u'device-number': u'0010', u'virtual-switch-uri': u'/api/virtual-switches/3e82cc56-57be-11e6-b930-42f2e9ef1641', u'type': u'osd', u'class': u'nic', u'description': u''}
+Wed, 14 Sep 2016 16:16:15 DEBUG    [<CreateTemplate.Object instance at 0x7f5793317b48>]
+Wed, 14 Sep 2016 16:16:15 INFO     <-getNicList
+Wed, 14 Sep 2016 16:16:15 DEBUG    /api/partitions/673cfa14-7a59-11e6-b4cb-42f2e9ef1641/nics/f1ede0b0-7a5e-11e6-a8fe-42f2e9ef1641
+Wed, 14 Sep 2016 16:16:15 DEBUG    {u'element-uri': u'/api/partitions/673cfa14-7a59-11e6-b4cb-42f2e9ef1641/nics/f1ede0b0-7a5e-11e6-a8fe-42f2e9ef1641', u'name': u'hgh', u'parent': u'/api/partitions/673cfa14-7a59-11e6-b4cb-42f2e9ef1641', u'element-id': u'f1ede0b0-7a5e-11e6-a8fe-42f2e9ef1641', u'device-number': u'0004', u'virtual-switch-uri': u'/api/virtual-switches/3e82cc56-57be-11e6-b930-42f2e9ef1641', u'type': u'osd', u'class': u'nic', u'description': u''}
+Wed, 14 Sep 2016 16:16:15 DEBUG    [<CreateTemplate.Object instance at 0x7f5793317b48>, <CreateTemplate.Object instance at 0x7f57932f1f38>]
+Wed, 14 Sep 2016 16:16:15 INFO     <-getNicList
+Wed, 14 Sep 2016 16:16:15 DEBUG    /api/partitions/673cfa14-7a59-11e6-b4cb-42f2e9ef1641/nics/0e3777ae-7a5f-11e6-a8fe-42f2e9ef1641
+Wed, 14 Sep 2016 16:16:16 DEBUG    {u'element-uri': u'/api/partitions/673cfa14-7a59-11e6-b4cb-42f2e9ef1641/nics/0e3777ae-7a5f-11e6-a8fe-42f2e9ef1641', u'name': u'dfjhjqhfj', u'parent': u'/api/partitions/673cfa14-7a59-11e6-b4cb-42f2e9ef1641', u'element-id': u'0e3777ae-7a5f-11e6-a8fe-42f2e9ef1641', u'device-number': u'000a', u'virtual-switch-uri': u'/api/virtual-switches/3e82cc56-57be-11e6-b930-42f2e9ef1641', u'type': u'osd', u'class': u'nic', u'description': u''}
+Wed, 14 Sep 2016 16:16:16 DEBUG    [<CreateTemplate.Object instance at 0x7f5793317b48>, <CreateTemplate.Object instance at 0x7f57932f1f38>, <CreateTemplate.Object instance at 0x7f57933176c8>]
+Wed, 14 Sep 2016 16:16:16 INFO     <-getNicList
+Wed, 14 Sep 2016 16:16:16 DEBUG    /api/partitions/673cfa14-7a59-11e6-b4cb-42f2e9ef1641/nics/47fe458a-7a5f-11e6-a8fe-42f2e9ef1641
+Wed, 14 Sep 2016 16:16:17 DEBUG    {u'element-uri': u'/api/partitions/673cfa14-7a59-11e6-b4cb-42f2e9ef1641/nics/47fe458a-7a5f-11e6-a8fe-42f2e9ef1641', u'name': u'kjr43jqitkjk', u'parent': u'/api/partitions/673cfa14-7a59-11e6-b4cb-42f2e9ef1641', u'element-id': u'47fe458a-7a5f-11e6-a8fe-42f2e9ef1641', u'device-number': u'0016', u'virtual-switch-uri': u'/api/virtual-switches/3e82cc56-57be-11e6-b930-42f2e9ef1641', u'type': u'osd', u'class': u'nic', u'description': u''}
+Wed, 14 Sep 2016 16:16:17 DEBUG    [<CreateTemplate.Object instance at 0x7f5793317b48>, <CreateTemplate.Object instance at 0x7f57932f1f38>, <CreateTemplate.Object instance at 0x7f57933176c8>, <CreateTemplate.Object instance at 0x7f57932f1488>]
+Wed, 14 Sep 2016 16:16:17 INFO     <-getNicList
+Wed, 14 Sep 2016 16:16:17 DEBUG    /api/partitions/673cfa14-7a59-11e6-b4cb-42f2e9ef1641/nics/396aa5d6-7a5f-11e6-a8fe-42f2e9ef1641
+Wed, 14 Sep 2016 16:16:17 DEBUG    {u'element-uri': u'/api/partitions/673cfa14-7a59-11e6-b4cb-42f2e9ef1641/nics/396aa5d6-7a5f-11e6-a8fe-42f2e9ef1641', u'name': u'newajhq3jkn', u'parent': u'/api/partitions/673cfa14-7a59-11e6-b4cb-42f2e9ef1641', u'element-id': u'396aa5d6-7a5f-11e6-a8fe-42f2e9ef1641', u'device-number': u'0013', u'virtual-switch-uri': u'/api/virtual-switches/4197aac4-57be-11e6-b930-42f2e9ef1641', u'type': u'osd', u'class': u'nic', u'description': u''}
+Wed, 14 Sep 2016 16:16:17 DEBUG    [<CreateTemplate.Object instance at 0x7f5793317b48>, <CreateTemplate.Object instance at 0x7f57932f1f38>, <CreateTemplate.Object instance at 0x7f57933176c8>, <CreateTemplate.Object instance at 0x7f57932f1488>, <CreateTemplate.Object instance at 0x7f5793317638>]
+Wed, 14 Sep 2016 16:16:17 INFO     <-getNicList
+Wed, 14 Sep 2016 16:16:17 DEBUG    /api/partitions/673cfa14-7a59-11e6-b4cb-42f2e9ef1641/nics/e1b30d9c-7a5e-11e6-a8fe-42f2e9ef1641
+Wed, 14 Sep 2016 16:16:18 DEBUG    {u'element-uri': u'/api/partitions/673cfa14-7a59-11e6-b4cb-42f2e9ef1641/nics/e1b30d9c-7a5e-11e6-a8fe-42f2e9ef1641', u'name': u'add', u'parent': u'/api/partitions/673cfa14-7a59-11e6-b4cb-42f2e9ef1641', u'element-id': u'e1b30d9c-7a5e-11e6-a8fe-42f2e9ef1641', u'device-number': u'0001', u'virtual-switch-uri': u'/api/virtual-switches/3e93bc28-57be-11e6-b930-42f2e9ef1641', u'type': u'osd', u'class': u'nic', u'description': u''}
+Wed, 14 Sep 2016 16:16:18 DEBUG    [<CreateTemplate.Object instance at 0x7f5793317b48>, <CreateTemplate.Object instance at 0x7f57932f1f38>, <CreateTemplate.Object instance at 0x7f57933176c8>, <CreateTemplate.Object instance at 0x7f57932f1488>, <CreateTemplate.Object instance at 0x7f5793317638>, <CreateTemplate.Object instance at 0x7f57933175a8>]
+Wed, 14 Sep 2016 16:16:18 INFO     <-getNicList
+Wed, 14 Sep 2016 16:16:18 DEBUG    /api/partitions/673cfa14-7a59-11e6-b4cb-42f2e9ef1641/nics/1bbd7248-7a5f-11e6-a8fe-42f2e9ef1641
+Wed, 14 Sep 2016 16:16:19 DEBUG    {u'element-uri': u'/api/partitions/673cfa14-7a59-11e6-b4cb-42f2e9ef1641/nics/1bbd7248-7a5f-11e6-a8fe-42f2e9ef1641', u'name': u'mhrkjhkj', u'parent': u'/api/partitions/673cfa14-7a59-11e6-b4cb-42f2e9ef1641', u'element-id': u'1bbd7248-7a5f-11e6-a8fe-42f2e9ef1641', u'device-number': u'000d', u'virtual-switch-uri': u'/api/virtual-switches/4197aac4-57be-11e6-b930-42f2e9ef1641', u'type': u'osd', u'class': u'nic', u'description': u'qfjl'}
+Wed, 14 Sep 2016 16:16:19 DEBUG    [<CreateTemplate.Object instance at 0x7f5793317b48>, <CreateTemplate.Object instance at 0x7f57932f1f38>, <CreateTemplate.Object instance at 0x7f57933176c8>, <CreateTemplate.Object instance at 0x7f57932f1488>, <CreateTemplate.Object instance at 0x7f5793317638>, <CreateTemplate.Object instance at 0x7f57933175a8>, <CreateTemplate.Object instance at 0x7f5793317518>]
+Wed, 14 Sep 2016 16:16:19 INFO     <-getNicList
+Wed, 14 Sep 2016 16:16:19 DEBUG    /api/partitions/673cfa14-7a59-11e6-b4cb-42f2e9ef1641/nics/006fbcbc-7a5f-11e6-a8fe-42f2e9ef1641
+Wed, 14 Sep 2016 16:16:19 DEBUG    {u'element-uri': u'/api/partitions/673cfa14-7a59-11e6-b4cb-42f2e9ef1641/nics/006fbcbc-7a5f-11e6-a8fe-42f2e9ef1641', u'name': u'bjgfh', u'parent': u'/api/partitions/673cfa14-7a59-11e6-b4cb-42f2e9ef1641', u'element-id': u'006fbcbc-7a5f-11e6-a8fe-42f2e9ef1641', u'device-number': u'0007', u'virtual-switch-uri': u'/api/virtual-switches/3e82cc56-57be-11e6-b930-42f2e9ef1641', u'type': u'osd', u'class': u'nic', u'description': u''}
+Wed, 14 Sep 2016 16:16:19 DEBUG    [<CreateTemplate.Object instance at 0x7f5793317b48>, <CreateTemplate.Object instance at 0x7f57932f1f38>, <CreateTemplate.Object instance at 0x7f57933176c8>, <CreateTemplate.Object instance at 0x7f57932f1488>, <CreateTemplate.Object instance at 0x7f5793317638>, <CreateTemplate.Object instance at 0x7f57933175a8>, <CreateTemplate.Object instance at 0x7f5793317518>, <CreateTemplate.Object instance at 0x7f5793317488>]
+Wed, 14 Sep 2016 16:16:19 INFO     <-getNicList
+Wed, 14 Sep 2016 16:16:19 INFO     ->getHbaList
+Wed, 14 Sep 2016 16:16:24 INFO     <-getHbaList
+Wed, 14 Sep 2016 16:16:24 INFO     ->getVfnList
+Wed, 14 Sep 2016 16:16:27 INFO     <-getVfnList
+Wed, 14 Sep 2016 16:16:27 INFO     <-getPartitionTemplate
+Wed, 14 Sep 2016 16:16:28 INFO     Retriving the partition info and loading into template....
+Wed, 14 Sep 2016 16:16:28 INFO     ->getPartitionTemplate
+Wed, 14 Sep 2016 16:16:28 INFO     ->setBootDevice
+Wed, 14 Sep 2016 16:16:28 INFO     <-setBootDevice
+Wed, 14 Sep 2016 16:16:28 INFO     ->getNicList
+Wed, 14 Sep 2016 16:16:28 INFO     ->getHbaList
+Wed, 14 Sep 2016 16:16:28 INFO     <-getHbaList
+Wed, 14 Sep 2016 16:16:28 INFO     ->getVfnList
+Wed, 14 Sep 2016 16:16:28 INFO     <-getVfnList
+Wed, 14 Sep 2016 16:16:28 INFO     <-getPartitionTemplate
+Wed, 14 Sep 2016 16:16:29 INFO     Retriving the partition info and loading into template....
+Wed, 14 Sep 2016 16:16:29 INFO     ->getPartitionTemplate
+Wed, 14 Sep 2016 16:16:29 INFO     ->setBootDevice
+Wed, 14 Sep 2016 16:16:29 INFO     <-setBootDevice
+Wed, 14 Sep 2016 16:16:29 INFO     ->getNicList
+Wed, 14 Sep 2016 16:16:29 INFO     ->getHbaList
+Wed, 14 Sep 2016 16:16:29 INFO     <-getHbaList
+Wed, 14 Sep 2016 16:16:29 INFO     ->getVfnList
+Wed, 14 Sep 2016 16:16:29 INFO     <-getVfnList
+Wed, 14 Sep 2016 16:16:29 INFO     <-getPartitionTemplate
+Wed, 14 Sep 2016 16:16:31 INFO     Retriving the partition info and loading into template....
+Wed, 14 Sep 2016 16:16:31 INFO     ->getPartitionTemplate
+Wed, 14 Sep 2016 16:16:31 INFO     ->setBootDevice
+Wed, 14 Sep 2016 16:16:31 INFO     <-setBootDevice
+Wed, 14 Sep 2016 16:16:31 INFO     ->getNicList
+Wed, 14 Sep 2016 16:16:31 INFO     ->getHbaList
+Wed, 14 Sep 2016 16:16:31 INFO     <-getHbaList
+Wed, 14 Sep 2016 16:16:31 INFO     ->getVfnList
+Wed, 14 Sep 2016 16:16:31 INFO     <-getVfnList
+Wed, 14 Sep 2016 16:16:31 INFO     <-getPartitionTemplate
+Wed, 14 Sep 2016 16:16:32 INFO     Retriving the partition info and loading into template....
+Wed, 14 Sep 2016 16:16:32 INFO     ->getPartitionTemplate
+Wed, 14 Sep 2016 16:16:32 INFO     ->setBootDevice
+Wed, 14 Sep 2016 16:16:32 INFO     <-setBootDevice
+Wed, 14 Sep 2016 16:16:32 INFO     ->getNicList
+Wed, 14 Sep 2016 16:16:32 INFO     ->getHbaList
+Wed, 14 Sep 2016 16:16:32 INFO     <-getHbaList
+Wed, 14 Sep 2016 16:16:32 INFO     ->getVfnList
+Wed, 14 Sep 2016 16:16:32 INFO     <-getVfnList
+Wed, 14 Sep 2016 16:16:32 INFO     <-getPartitionTemplate
+Wed, 14 Sep 2016 16:16:33 INFO     Retriving the partition info and loading into template....
+Wed, 14 Sep 2016 16:16:33 INFO     ->getPartitionTemplate
+Wed, 14 Sep 2016 16:16:33 INFO     ->setBootDevice
+Wed, 14 Sep 2016 16:16:33 INFO     <-setBootDevice
+Wed, 14 Sep 2016 16:16:33 INFO     ->getNicList
+Wed, 14 Sep 2016 16:16:33 INFO     ->getHbaList
+Wed, 14 Sep 2016 16:16:33 INFO     <-getHbaList
+Wed, 14 Sep 2016 16:16:33 INFO     ->getVfnList
+Wed, 14 Sep 2016 16:16:33 INFO     <-getVfnList
+Wed, 14 Sep 2016 16:16:33 INFO     <-getPartitionTemplate
+Wed, 14 Sep 2016 16:16:35 INFO     Retriving the partition info and loading into template....
+Wed, 14 Sep 2016 16:16:35 INFO     ->getPartitionTemplate
+Wed, 14 Sep 2016 16:16:35 INFO     ->setBootDevice
+Wed, 14 Sep 2016 16:16:35 INFO     <-setBootDevice
+Wed, 14 Sep 2016 16:16:35 INFO     ->getNicList
+Wed, 14 Sep 2016 16:16:35 INFO     ->getHbaList
+Wed, 14 Sep 2016 16:16:35 INFO     <-getHbaList
+Wed, 14 Sep 2016 16:16:35 INFO     ->getVfnList
+Wed, 14 Sep 2016 16:16:35 INFO     <-getVfnList
+Wed, 14 Sep 2016 16:16:35 INFO     <-getPartitionTemplate
+Wed, 14 Sep 2016 16:16:35 INFO     template created successfully...
+Wed, 14 Sep 2016 16:16:35 INFO     <-createTemplate
+Wed, 14 Sep 2016 16:16:38 DEBUG    template_name /home/preethi/edrive/shristi-hackathon/Partition_TemplateEngine/partitionengine/templates/base_P000S67B/base_template.json
+Wed, 14 Sep 2016 16:16:38 INFO     <-exportPartition
+Wed, 14 Sep 2016 16:16:38 DEBUG    
+****************************************************************************************************
+Successfully Completed
+****************************************************************************************************

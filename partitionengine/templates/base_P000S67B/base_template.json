@@ -20,6 +20,98 @@
             "cp-absolute-processor-capping": false, 
             "cp-absolute-processor-capping-value": 1.0, 
             "cp-processing-weight-capped": false, 
+            "cp-processors": 0, 
+            "cryptos": null, 
+            "description": "", 
+            "hbas": [], 
+            "ifl-absolute-processor-capping": true, 
+            "ifl-absolute-processor-capping-value": 1.0, 
+            "ifl-processing-weight-capped": false, 
+            "ifl-processors": 1, 
+            "initial-cp-processing-weight": 100, 
+            "initial-ifl-processing-weight": 100, 
+            "initial-memory": 1024, 
+            "maximum-cp-processing-weight": 999, 
+            "maximum-ifl-processing-weight": 999, 
+            "maximum-memory": 2048, 
+            "minimum-cp-processing-weight": 1, 
+            "minimum-ifl-processing-weight": 1, 
+            "name": "VSM_2_21834", 
+            "nics": [], 
+            "permit-aes-key-import-functions": true, 
+            "permit-cross-partition-commands": false, 
+            "permit-des-key-import-functions": true, 
+            "processor-management-enabled": false, 
+            "processor-mode": "shared", 
+            "reserve-resources": false, 
+            "virtual-functions": []
+        }, 
+        {
+            "acceptable-status": [
+                "active"
+            ], 
+            "access-basic-counter-set": false, 
+            "access-basic-sampling": false, 
+            "access-coprocessor-group-set": false, 
+            "access-crypto-activity-counter-set": false, 
+            "access-diagnostic-sampling": false, 
+            "access-extended-counter-set": false, 
+            "access-global-performance-data": false, 
+            "access-problem-state-counter-set": false, 
+            "boot-configuration-selector": 0, 
+            "boot-device": "none", 
+            "boot-os-specific-parameters": "", 
+            "boot-record-lba": "0", 
+            "boot-timeout": 60, 
+            "cp-absolute-processor-capping": false, 
+            "cp-absolute-processor-capping-value": 1.0, 
+            "cp-processing-weight-capped": false, 
+            "cp-processors": 1, 
+            "cryptos": null, 
+            "description": "", 
+            "hbas": [], 
+            "ifl-absolute-processor-capping": false, 
+            "ifl-absolute-processor-capping-value": 1.0, 
+            "ifl-processing-weight-capped": false, 
+            "ifl-processors": 0, 
+            "initial-cp-processing-weight": 100, 
+            "initial-ifl-processing-weight": 100, 
+            "initial-memory": 1024, 
+            "maximum-cp-processing-weight": 999, 
+            "maximum-ifl-processing-weight": 999, 
+            "maximum-memory": 2048, 
+            "minimum-cp-processing-weight": 1, 
+            "minimum-ifl-processing-weight": 1, 
+            "name": "VSM_2_188811", 
+            "nics": [], 
+            "permit-aes-key-import-functions": true, 
+            "permit-cross-partition-commands": false, 
+            "permit-des-key-import-functions": true, 
+            "processor-management-enabled": false, 
+            "processor-mode": "shared", 
+            "reserve-resources": false, 
+            "virtual-functions": []
+        }, 
+        {
+            "acceptable-status": [
+                "active"
+            ], 
+            "access-basic-counter-set": false, 
+            "access-basic-sampling": false, 
+            "access-coprocessor-group-set": false, 
+            "access-crypto-activity-counter-set": false, 
+            "access-diagnostic-sampling": false, 
+            "access-extended-counter-set": false, 
+            "access-global-performance-data": false, 
+            "access-problem-state-counter-set": false, 
+            "boot-configuration-selector": 0, 
+            "boot-device": "test-operating-system", 
+            "boot-os-specific-parameters": "", 
+            "boot-record-lba": "0", 
+            "boot-timeout": 60, 
+            "cp-absolute-processor-capping": false, 
+            "cp-absolute-processor-capping-value": 1.0, 
+            "cp-processing-weight-capped": false, 
             "cp-processors": 1, 
             "cryptos": null, 
             "description": "", 
@@ -37,6 +129,663 @@
             "minimum-cp-processing-weight": 1, 
             "minimum-ifl-processing-weight": 1, 
             "name": "test", 
+            "nics": [], 
+            "permit-aes-key-import-functions": true, 
+            "permit-cross-partition-commands": false, 
+            "permit-des-key-import-functions": true, 
+            "processor-management-enabled": false, 
+            "processor-mode": "shared", 
+            "reserve-resources": false, 
+            "virtual-functions": []
+        }, 
+        {
+            "acceptable-status": [
+                "active"
+            ], 
+            "access-basic-counter-set": false, 
+            "access-basic-sampling": false, 
+            "access-coprocessor-group-set": false, 
+            "access-crypto-activity-counter-set": false, 
+            "access-diagnostic-sampling": false, 
+            "access-extended-counter-set": false, 
+            "access-global-performance-data": false, 
+            "access-problem-state-counter-set": false, 
+            "boot-configuration-selector": 0, 
+            "boot-device": "test-operating-system", 
+            "boot-os-specific-parameters": "", 
+            "boot-record-lba": "0", 
+            "boot-timeout": 60, 
+            "cp-absolute-processor-capping": false, 
+            "cp-absolute-processor-capping-value": 1.0, 
+            "cp-processing-weight-capped": false, 
+            "cp-processors": 1, 
+            "cryptos": null, 
+            "description": "", 
+            "hbas": [], 
+            "ifl-absolute-processor-capping": false, 
+            "ifl-absolute-processor-capping-value": 1.0, 
+            "ifl-processing-weight-capped": false, 
+            "ifl-processors": 0, 
+            "initial-cp-processing-weight": 100, 
+            "initial-ifl-processing-weight": 100, 
+            "initial-memory": 4096, 
+            "maximum-cp-processing-weight": 999, 
+            "maximum-ifl-processing-weight": 999, 
+            "maximum-memory": 4096, 
+            "minimum-cp-processing-weight": 1, 
+            "minimum-ifl-processing-weight": 1, 
+            "name": "test_GTGK", 
+            "nics": [], 
+            "permit-aes-key-import-functions": true, 
+            "permit-cross-partition-commands": false, 
+            "permit-des-key-import-functions": true, 
+            "processor-management-enabled": false, 
+            "processor-mode": "shared", 
+            "reserve-resources": false, 
+            "virtual-functions": []
+        }, 
+        {
+            "acceptable-status": [
+                "active"
+            ], 
+            "access-basic-counter-set": false, 
+            "access-basic-sampling": false, 
+            "access-coprocessor-group-set": false, 
+            "access-crypto-activity-counter-set": false, 
+            "access-diagnostic-sampling": false, 
+            "access-extended-counter-set": false, 
+            "access-global-performance-data": false, 
+            "access-problem-state-counter-set": false, 
+            "boot-configuration-selector": 0, 
+            "boot-device": "none", 
+            "boot-os-specific-parameters": "", 
+            "boot-record-lba": "0", 
+            "boot-timeout": 60, 
+            "cp-absolute-processor-capping": false, 
+            "cp-absolute-processor-capping-value": 1.0, 
+            "cp-processing-weight-capped": false, 
+            "cp-processors": 1, 
+            "cryptos": {
+                "crypto-adapter-uris": [
+                    "/api/adapters/3cfeaf4e-57be-11e6-b688-42f2e9ef1641"
+                ], 
+                "crypto-domain-configurations": [
+                    {
+                        "access-mode": "control-usage", 
+                        "domain-index": 0
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 1
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 2
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 3
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 4
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 5
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 6
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 7
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 8
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 9
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 10
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 11
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 12
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 13
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 14
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 15
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 17
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 16
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 19
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 18
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 21
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 20
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 23
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 22
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 25
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 24
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 27
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 26
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 29
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 28
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 31
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 30
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 34
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 35
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 32
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 33
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 38
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 39
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 36
+                    }, 
+                    {
+                        "access-mode": "control", 
+                        "domain-index": 37
+                    }
+                ]
+            }, 
+            "description": "", 
+            "hbas": [
+                {
+                    "adapter-port-uri": "/api/adapters/46cb42d0-57be-11e6-b688-42f2e9ef1641/storage-ports/0", 
+                    "description": "", 
+                    "device-number": "001e", 
+                    "name": "hfjkkejwqk"
+                }, 
+                {
+                    "adapter-port-uri": "/api/adapters/46cb42d0-57be-11e6-b688-42f2e9ef1641/storage-ports/0", 
+                    "description": "", 
+                    "device-number": "001f", 
+                    "name": "asdqew"
+                }, 
+                {
+                    "adapter-port-uri": "/api/adapters/46cb42d0-57be-11e6-b688-42f2e9ef1641/storage-ports/0", 
+                    "description": "", 
+                    "device-number": "001c", 
+                    "name": "hfrjn"
+                }, 
+                {
+                    "adapter-port-uri": "/api/adapters/46cb42d0-57be-11e6-b688-42f2e9ef1641/storage-ports/0", 
+                    "description": "", 
+                    "device-number": "001a", 
+                    "name": "jhsiuj"
+                }, 
+                {
+                    "adapter-port-uri": "/api/adapters/46cb42d0-57be-11e6-b688-42f2e9ef1641/storage-ports/0", 
+                    "description": "", 
+                    "device-number": "001b", 
+                    "name": "kjfwkn"
+                }, 
+                {
+                    "adapter-port-uri": "/api/adapters/46cb42d0-57be-11e6-b688-42f2e9ef1641/storage-ports/0", 
+                    "description": "", 
+                    "device-number": "0019", 
+                    "name": "jqhtgkjnl"
+                }, 
+                {
+                    "adapter-port-uri": "/api/adapters/46cb42d0-57be-11e6-b688-42f2e9ef1641/storage-ports/0", 
+                    "description": "", 
+                    "device-number": "001d", 
+                    "name": "kjxkn"
+                }
+            ], 
+            "ifl-absolute-processor-capping": false, 
+            "ifl-absolute-processor-capping-value": 1.0, 
+            "ifl-processing-weight-capped": false, 
+            "ifl-processors": 0, 
+            "initial-cp-processing-weight": 100, 
+            "initial-ifl-processing-weight": 100, 
+            "initial-memory": 1024, 
+            "maximum-cp-processing-weight": 999, 
+            "maximum-ifl-processing-weight": 999, 
+            "maximum-memory": 2048, 
+            "minimum-cp-processing-weight": 1, 
+            "minimum-ifl-processing-weight": 1, 
+            "name": "VSM_2_18856", 
+            "nics": [
+                {
+                    "description": "", 
+                    "device-number": "0010", 
+                    "name": "jkqeurji4jtfkccm", 
+                    "virtual-switch-uri": "/api/virtual-switches/3e82cc56-57be-11e6-b930-42f2e9ef1641"
+                }, 
+                {
+                    "description": "", 
+                    "device-number": "0004", 
+                    "name": "hgh", 
+                    "virtual-switch-uri": "/api/virtual-switches/3e82cc56-57be-11e6-b930-42f2e9ef1641"
+                }, 
+                {
+                    "description": "", 
+                    "device-number": "000a", 
+                    "name": "dfjhjqhfj", 
+                    "virtual-switch-uri": "/api/virtual-switches/3e82cc56-57be-11e6-b930-42f2e9ef1641"
+                }, 
+                {
+                    "description": "", 
+                    "device-number": "0016", 
+                    "name": "kjr43jqitkjk", 
+                    "virtual-switch-uri": "/api/virtual-switches/3e82cc56-57be-11e6-b930-42f2e9ef1641"
+                }, 
+                {
+                    "description": "", 
+                    "device-number": "0013", 
+                    "name": "newajhq3jkn", 
+                    "virtual-switch-uri": "/api/virtual-switches/4197aac4-57be-11e6-b930-42f2e9ef1641"
+                }, 
+                {
+                    "description": "", 
+                    "device-number": "0001", 
+                    "name": "add", 
+                    "virtual-switch-uri": "/api/virtual-switches/3e93bc28-57be-11e6-b930-42f2e9ef1641"
+                }, 
+                {
+                    "description": "qfjl", 
+                    "device-number": "000d", 
+                    "name": "mhrkjhkj", 
+                    "virtual-switch-uri": "/api/virtual-switches/4197aac4-57be-11e6-b930-42f2e9ef1641"
+                }, 
+                {
+                    "description": "", 
+                    "device-number": "0007", 
+                    "name": "bjgfh", 
+                    "virtual-switch-uri": "/api/virtual-switches/3e82cc56-57be-11e6-b930-42f2e9ef1641"
+                }
+            ], 
+            "permit-aes-key-import-functions": true, 
+            "permit-cross-partition-commands": false, 
+            "permit-des-key-import-functions": true, 
+            "processor-management-enabled": false, 
+            "processor-mode": "shared", 
+            "reserve-resources": false, 
+            "virtual-functions": [
+                {
+                    "adapter-uri": "/api/adapters/47af772a-57be-11e6-b688-42f2e9ef1641", 
+                    "description": "", 
+                    "device-number": "0004", 
+                    "name": "jewhfkjn"
+                }, 
+                {
+                    "adapter-uri": "/api/adapters/47af772a-57be-11e6-b688-42f2e9ef1641", 
+                    "description": "", 
+                    "device-number": "0003", 
+                    "name": "ayuejfnkl"
+                }, 
+                {
+                    "adapter-uri": "/api/adapters/47af772a-57be-11e6-b688-42f2e9ef1641", 
+                    "description": "", 
+                    "device-number": "0002", 
+                    "name": "awljeoi3kjn"
+                }, 
+                {
+                    "adapter-uri": "/api/adapters/47af772a-57be-11e6-b688-42f2e9ef1641", 
+                    "description": "", 
+                    "device-number": "0001", 
+                    "name": "sadhjej"
+                }, 
+                {
+                    "adapter-uri": "/api/adapters/47af772a-57be-11e6-b688-42f2e9ef1641", 
+                    "description": "", 
+                    "device-number": "0005", 
+                    "name": "lkewjfkmswf4"
+                }
+            ]
+        }, 
+        {
+            "acceptable-status": [
+                "active"
+            ], 
+            "access-basic-counter-set": false, 
+            "access-basic-sampling": false, 
+            "access-coprocessor-group-set": false, 
+            "access-crypto-activity-counter-set": false, 
+            "access-diagnostic-sampling": false, 
+            "access-extended-counter-set": false, 
+            "access-global-performance-data": false, 
+            "access-problem-state-counter-set": false, 
+            "boot-configuration-selector": 0, 
+            "boot-device": "test-operating-system", 
+            "boot-os-specific-parameters": "", 
+            "boot-record-lba": "0", 
+            "boot-timeout": 60, 
+            "cp-absolute-processor-capping": false, 
+            "cp-absolute-processor-capping-value": 1.0, 
+            "cp-processing-weight-capped": false, 
+            "cp-processors": 1, 
+            "cryptos": null, 
+            "description": "", 
+            "hbas": [], 
+            "ifl-absolute-processor-capping": false, 
+            "ifl-absolute-processor-capping-value": 1.0, 
+            "ifl-processing-weight-capped": false, 
+            "ifl-processors": 0, 
+            "initial-cp-processing-weight": 100, 
+            "initial-ifl-processing-weight": 100, 
+            "initial-memory": 4096, 
+            "maximum-cp-processing-weight": 999, 
+            "maximum-ifl-processing-weight": 999, 
+            "maximum-memory": 4096, 
+            "minimum-cp-processing-weight": 1, 
+            "minimum-ifl-processing-weight": 1, 
+            "name": "test_90DK", 
+            "nics": [], 
+            "permit-aes-key-import-functions": true, 
+            "permit-cross-partition-commands": false, 
+            "permit-des-key-import-functions": true, 
+            "processor-management-enabled": false, 
+            "processor-mode": "shared", 
+            "reserve-resources": false, 
+            "virtual-functions": []
+        }, 
+        {
+            "acceptable-status": [
+                "active"
+            ], 
+            "access-basic-counter-set": false, 
+            "access-basic-sampling": false, 
+            "access-coprocessor-group-set": false, 
+            "access-crypto-activity-counter-set": false, 
+            "access-diagnostic-sampling": false, 
+            "access-extended-counter-set": false, 
+            "access-global-performance-data": false, 
+            "access-problem-state-counter-set": false, 
+            "boot-configuration-selector": 0, 
+            "boot-device": "test-operating-system", 
+            "boot-os-specific-parameters": "", 
+            "boot-record-lba": "0", 
+            "boot-timeout": 60, 
+            "cp-absolute-processor-capping": false, 
+            "cp-absolute-processor-capping-value": 1.0, 
+            "cp-processing-weight-capped": false, 
+            "cp-processors": 1, 
+            "cryptos": null, 
+            "description": "", 
+            "hbas": [], 
+            "ifl-absolute-processor-capping": false, 
+            "ifl-absolute-processor-capping-value": 1.0, 
+            "ifl-processing-weight-capped": false, 
+            "ifl-processors": 0, 
+            "initial-cp-processing-weight": 100, 
+            "initial-ifl-processing-weight": 100, 
+            "initial-memory": 4096, 
+            "maximum-cp-processing-weight": 999, 
+            "maximum-ifl-processing-weight": 999, 
+            "maximum-memory": 4096, 
+            "minimum-cp-processing-weight": 1, 
+            "minimum-ifl-processing-weight": 1, 
+            "name": "test_A0WM", 
+            "nics": [], 
+            "permit-aes-key-import-functions": true, 
+            "permit-cross-partition-commands": false, 
+            "permit-des-key-import-functions": true, 
+            "processor-management-enabled": false, 
+            "processor-mode": "shared", 
+            "reserve-resources": false, 
+            "virtual-functions": []
+        }, 
+        {
+            "acceptable-status": [
+                "active"
+            ], 
+            "access-basic-counter-set": false, 
+            "access-basic-sampling": false, 
+            "access-coprocessor-group-set": false, 
+            "access-crypto-activity-counter-set": false, 
+            "access-diagnostic-sampling": false, 
+            "access-extended-counter-set": false, 
+            "access-global-performance-data": false, 
+            "access-problem-state-counter-set": false, 
+            "boot-configuration-selector": 0, 
+            "boot-device": "test-operating-system", 
+            "boot-os-specific-parameters": "", 
+            "boot-record-lba": "0", 
+            "boot-timeout": 60, 
+            "cp-absolute-processor-capping": false, 
+            "cp-absolute-processor-capping-value": 1.0, 
+            "cp-processing-weight-capped": false, 
+            "cp-processors": 1, 
+            "cryptos": null, 
+            "description": "", 
+            "hbas": [], 
+            "ifl-absolute-processor-capping": false, 
+            "ifl-absolute-processor-capping-value": 1.0, 
+            "ifl-processing-weight-capped": false, 
+            "ifl-processors": 0, 
+            "initial-cp-processing-weight": 100, 
+            "initial-ifl-processing-weight": 100, 
+            "initial-memory": 4096, 
+            "maximum-cp-processing-weight": 999, 
+            "maximum-ifl-processing-weight": 999, 
+            "maximum-memory": 4096, 
+            "minimum-cp-processing-weight": 1, 
+            "minimum-ifl-processing-weight": 1, 
+            "name": "test_34L6", 
+            "nics": [], 
+            "permit-aes-key-import-functions": true, 
+            "permit-cross-partition-commands": false, 
+            "permit-des-key-import-functions": true, 
+            "processor-management-enabled": false, 
+            "processor-mode": "shared", 
+            "reserve-resources": false, 
+            "virtual-functions": []
+        }, 
+        {
+            "acceptable-status": [
+                "active"
+            ], 
+            "access-basic-counter-set": false, 
+            "access-basic-sampling": false, 
+            "access-coprocessor-group-set": false, 
+            "access-crypto-activity-counter-set": false, 
+            "access-diagnostic-sampling": false, 
+            "access-extended-counter-set": false, 
+            "access-global-performance-data": false, 
+            "access-problem-state-counter-set": false, 
+            "boot-configuration-selector": 0, 
+            "boot-device": "test-operating-system", 
+            "boot-os-specific-parameters": "", 
+            "boot-record-lba": "0", 
+            "boot-timeout": 60, 
+            "cp-absolute-processor-capping": false, 
+            "cp-absolute-processor-capping-value": 1.0, 
+            "cp-processing-weight-capped": false, 
+            "cp-processors": 1, 
+            "cryptos": null, 
+            "description": "", 
+            "hbas": [], 
+            "ifl-absolute-processor-capping": false, 
+            "ifl-absolute-processor-capping-value": 1.0, 
+            "ifl-processing-weight-capped": false, 
+            "ifl-processors": 0, 
+            "initial-cp-processing-weight": 100, 
+            "initial-ifl-processing-weight": 100, 
+            "initial-memory": 4096, 
+            "maximum-cp-processing-weight": 999, 
+            "maximum-ifl-processing-weight": 999, 
+            "maximum-memory": 4096, 
+            "minimum-cp-processing-weight": 1, 
+            "minimum-ifl-processing-weight": 1, 
+            "name": "test_0J2I", 
+            "nics": [], 
+            "permit-aes-key-import-functions": true, 
+            "permit-cross-partition-commands": false, 
+            "permit-des-key-import-functions": true, 
+            "processor-management-enabled": false, 
+            "processor-mode": "shared", 
+            "reserve-resources": false, 
+            "virtual-functions": []
+        }, 
+        {
+            "acceptable-status": [
+                "active"
+            ], 
+            "access-basic-counter-set": false, 
+            "access-basic-sampling": false, 
+            "access-coprocessor-group-set": false, 
+            "access-crypto-activity-counter-set": false, 
+            "access-diagnostic-sampling": false, 
+            "access-extended-counter-set": false, 
+            "access-global-performance-data": false, 
+            "access-problem-state-counter-set": false, 
+            "boot-configuration-selector": 0, 
+            "boot-device": "test-operating-system", 
+            "boot-os-specific-parameters": "", 
+            "boot-record-lba": "0", 
+            "boot-timeout": 60, 
+            "cp-absolute-processor-capping": false, 
+            "cp-absolute-processor-capping-value": 1.0, 
+            "cp-processing-weight-capped": false, 
+            "cp-processors": 1, 
+            "cryptos": null, 
+            "description": "", 
+            "hbas": [], 
+            "ifl-absolute-processor-capping": false, 
+            "ifl-absolute-processor-capping-value": 1.0, 
+            "ifl-processing-weight-capped": false, 
+            "ifl-processors": 0, 
+            "initial-cp-processing-weight": 100, 
+            "initial-ifl-processing-weight": 100, 
+            "initial-memory": 4096, 
+            "maximum-cp-processing-weight": 999, 
+            "maximum-ifl-processing-weight": 999, 
+            "maximum-memory": 4096, 
+            "minimum-cp-processing-weight": 1, 
+            "minimum-ifl-processing-weight": 1, 
+            "name": "test_902R", 
+            "nics": [], 
+            "permit-aes-key-import-functions": true, 
+            "permit-cross-partition-commands": false, 
+            "permit-des-key-import-functions": true, 
+            "processor-management-enabled": false, 
+            "processor-mode": "shared", 
+            "reserve-resources": false, 
+            "virtual-functions": []
+        }, 
+        {
+            "acceptable-status": [
+                "active"
+            ], 
+            "access-basic-counter-set": false, 
+            "access-basic-sampling": false, 
+            "access-coprocessor-group-set": false, 
+            "access-crypto-activity-counter-set": false, 
+            "access-diagnostic-sampling": false, 
+            "access-extended-counter-set": false, 
+            "access-global-performance-data": false, 
+            "access-problem-state-counter-set": false, 
+            "boot-configuration-selector": 0, 
+            "boot-device": "none", 
+            "boot-os-specific-parameters": "", 
+            "boot-record-lba": "0", 
+            "boot-timeout": 60, 
+            "cp-absolute-processor-capping": false, 
+            "cp-absolute-processor-capping-value": 1.0, 
+            "cp-processing-weight-capped": false, 
+            "cp-processors": 1, 
+            "cryptos": null, 
+            "description": "", 
+            "hbas": [], 
+            "ifl-absolute-processor-capping": false, 
+            "ifl-absolute-processor-capping-value": 1.0, 
+            "ifl-processing-weight-capped": false, 
+            "ifl-processors": 0, 
+            "initial-cp-processing-weight": 100, 
+            "initial-ifl-processing-weight": 100, 
+            "initial-memory": 1024, 
+            "maximum-cp-processing-weight": 999, 
+            "maximum-ifl-processing-weight": 999, 
+            "maximum-memory": 1024, 
+            "minimum-cp-processing-weight": 1, 
+            "minimum-ifl-processing-weight": 1, 
+            "name": "Test", 
             "nics": [], 
             "permit-aes-key-import-functions": true, 
             "permit-cross-partition-commands": false, 
